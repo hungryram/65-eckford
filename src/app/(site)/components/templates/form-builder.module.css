@@ -1,0 +1,16 @@
+.formLabel {
+    @apply block text-sm font-medium leading-6
+}
+
+.formDefaultInput {
+    @apply border px-3 py-2 w-full col-span-3;
+    border-color: #14104a;
+}
+
+.formInputList {
+    @apply block text-sm font-medium leading-6 text-gray-900 w-full
+}
+
+.textarea {
+    @apply col-span-3
+}
