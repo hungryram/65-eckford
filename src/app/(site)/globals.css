@@ -32,14 +32,16 @@ html {
 }
 
 .primary-button {
-  @apply px-3 py-2 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+  @apply px-3 py-2 text-xl shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
   background-color: var(--primary-button-background);
   color: var(--primary-button-text);
   border-radius: var(--button-radius);
   padding-left: var(--button-x-padding);
   padding-right: var(--button-x-padding);
   padding-top: var(--button-y-padding);
-  padding-bottom: var(--button-y-padding);}
+  padding-bottom: var(--button-y-padding);
+  font-family: var(--heading-font)
+}
 
 .secondary-button {
   @apply px-3 py-2 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;

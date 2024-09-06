@@ -3,14 +3,21 @@
 }
 
 .formDefaultInput {
-    @apply border px-3 py-2 w-full col-span-3;
-    border-color: #14104a;
+    @apply border px-3 py-2 w-full col-span-3 bg-transparent;
+    border-color: #BF8D5B;
 }
 
 .formInputList {
-    @apply block text-sm font-medium leading-6 text-gray-900 w-full
+    @apply block text-sm font-medium leading-6 text-gray-900 w-full;
+    
 }
 
 .textarea {
-    @apply col-span-3
+    @apply col-span-3 bg-transparent;
+    border-color: #BF8D5B;
+}
+
+.select {
+    @apply bg-transparent;
+    border-color: #BF8D5B;
 }

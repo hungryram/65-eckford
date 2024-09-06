@@ -54,7 +54,7 @@ export default function CalltoActionThreeColumn({
     const styles = {
         paddingTop: paddingTop ?? '5rem',
         paddingBottom: paddingBottom ?? '5rem',
-        borderBottom: '8px solid #bf9283'
+        borderBottom: '8px solid #BF8D5B'
     }
 
     const allStyles = { ...backgroundStyles, ...styles }
@@ -83,7 +83,7 @@ export default function CalltoActionThreeColumn({
                     }
                 </div>
                 <div className="mt-10 flex items-center gap-x-6 lg:mt-0 w-48 md:place-content-end place-content-center mx-auto">
-                    <a href="#inquire" className="secondary-button !text-xl">Inquire</a>
+                    <a href="#inquire" className="primary-button !text-xl">Contact</a>
                 </div>
             </div>
         </div>

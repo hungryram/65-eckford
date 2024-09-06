@@ -2,13 +2,13 @@ import { Inter } from 'next/font/google';
 import localFont from "next/font/local"
 
 export const bodyFont = localFont({
-  src: './Oswald-VariableFont_wght.ttf',
+  src: './ArkibalDisplayRegular.otf',
   display: 'swap',
   variable: '--body-font'
 });
  
 export const headingFont = localFont({
-  src: './Chapaza.ttf',
+  src: './ReservesAveresTitleRoman-Regular.otf',
   display: 'swap',
   variable: '--heading-font'
 });

@@ -83,7 +83,7 @@ export default function ContactPage({
                     }
                     <div className={oneColumn ? '' : 'w-full'}>
                         <div>
-                            <div className="md:p-10 p-4 bg-white">
+                            <div className="md:p-10 p-4">
                                 <div className="content text-center mb-10">
                                     <ContentEditor content={content} />
                                 </div>

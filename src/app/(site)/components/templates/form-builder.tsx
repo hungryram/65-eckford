@@ -120,7 +120,7 @@ export default function FormBuilder({ formSchema }: FormBuilderProps) {
                               type="radio"
                               name={field.label}
                               id={node.replace(/^[^A-Za-z0-9]+/g, '').replace(/[^A-Za-z0-9_\-:.]/g, '') + i}
-                              className="h-4 w-4 rounded border-gray-300"
+                              className="h-4 w-4 rounded-none border-[#BF8D5B]"
                               required={field.required ? true : undefined}
                               value={node}
                             />
@@ -159,6 +159,7 @@ export default function FormBuilder({ formSchema }: FormBuilderProps) {
                         id={field.label.replace(/ /g, '') + i}
                         name={field.label}
                         required={field.required ? true : undefined}
+                        className={Styles.select}
                       >
                         {field?.selectValue?.map((node, i) => {
                           return (
@@ -196,8 +197,9 @@ export default function FormBuilder({ formSchema }: FormBuilderProps) {
             {/* LEAVE EMPTY */}
           </div>
           <button type="submit" className="primary-button" style={{
-              backgroundColor: formSchema?.buttonBackgroundColor?.hex,
-              color: formSchema?.buttonTextColor?.hex
+              backgroundColor: 'transparent',
+              color: formSchema?.buttonTextColor?.hex,
+              border: '1px solid #BF8D5B'
             }}>
               {sending === 'Idle' ?
                 `${formSchema?.buttonLabel ?? 'SUBMIT'}`
