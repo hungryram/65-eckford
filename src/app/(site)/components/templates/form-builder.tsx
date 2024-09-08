@@ -196,19 +196,20 @@ export default function FormBuilder({ formSchema }: FormBuilderProps) {
           <div className="col-span-1">
             {/* LEAVE EMPTY */}
           </div>
-          <button type="submit" className="primary-button" style={{
-              backgroundColor: 'transparent',
-              color: formSchema?.buttonTextColor?.hex,
-              border: '1px solid #BF8D5B'
-            }}>
-              {sending === 'Idle' ?
-                `${formSchema?.buttonLabel ?? 'SUBMIT'}`
-                : sending === 'Sending' ?
-                  <FaSpinner className="animate-spin mx-auto text-xl" />
-                  : sending === 'Sent' ?
-                    'Sent'
-                    : 'Error'
-              }            </button>
+          <button type="submit" className="primary-button w-full" style={{
+            backgroundColor: 'transparent',
+            color: formSchema?.buttonTextColor?.hex,
+            border: '1px solid #BF8D5B'
+          }}>
+            {sending === 'Idle' ?
+              `${formSchema?.buttonLabel ?? 'SUBMIT'}`
+              : sending === 'Sending' ?
+                <FaSpinner className="animate-spin mx-auto text-xl" />
+                : sending === 'Sent' ?
+                  'Sent'
+                  : 'Error'
+            }
+          </button>
         </div>
       </form>
     </div>
