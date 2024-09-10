@@ -109,7 +109,7 @@ export default function Footer({
           </div>
         </div>
         {footerDisclaimer &&
-          <div className="text-left text-[10px] my-2">
+          <div className="text-left !font-thin text-[10px] my-2">
             <ContentEditor
               content={footerDisclaimer}
             />
