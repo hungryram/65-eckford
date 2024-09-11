@@ -1,14 +1,19 @@
 .formLabel {
-    @apply block text-sm font-medium leading-6
+    @apply block text-sm font-bold leading-6;
+    font-family: var(--heading-font);
 }
 
 .formDefaultInput {
     @apply border px-3 py-2 w-full col-span-3 bg-transparent;
     border-color: #BF8D5B;
+    font-family: var(--heading-font);
+
 }
 
 .formInputList {
     @apply block text-sm font-medium leading-6 text-gray-900 w-full;
+    font-family: var(--heading-font);
+
     
 }
 
@@ -20,4 +25,6 @@
 .select {
     @apply bg-transparent;
     border-color: #BF8D5B;
+    font-family: var(--heading-font);
+
 }
