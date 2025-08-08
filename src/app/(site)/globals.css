@@ -63,7 +63,7 @@ body .content h5,
 body .content h6 {
   @apply leading-snug mb-6 mt-2 uppercase;
   color: var(--website-heading-color, #000);
-  font-family: var(--heading-font)
+  font-family: var(--heading-font);
 }
 
 .content h1 {

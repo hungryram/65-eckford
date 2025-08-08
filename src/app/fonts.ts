@@ -8,7 +8,7 @@ export const bodyFont = localFont({
 });
  
 export const headingFont = localFont({
-  src: './ReservesAveresTitleRoman-Regular.otf',
+  src: './ChongModernProRegular.ttf',
   display: 'swap',
   variable: '--heading-font'
 });
